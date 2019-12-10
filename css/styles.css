@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* Body */
+body {
+	font-family: "futura", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: #000000;
+	width: 75%;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+}
+
+
+/* Navigation */
+
+nav {
+	text-transform: uppercase;
+	float: right;
+	display: inline-block;	
+	background-color:darkgray;
+}
+
+nav li{
+	display: inline-block;
+	text-align: center;
+	margin: 0px auto 10px auto;
+	width: 100px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+nav li a img {
+	padding: 5px;
+}
+
+#hi {
+	background-color: white;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+#abi {
+	background-color: #DC1A1D;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+#ari {
+	background-color: #E16626;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+#wi {
+	background-color: #F0BE2D;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+#li {
+	background-color: #1E831D;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+#ci {
+	background-color: #1C59AB;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+/* Ids */
+
+#page {
+	margin:auto;
+}
+
+/* Classes */
+
+.logo {
+	padding: 10px;
+}
+
+.container {
+	height: 200px;
+	margin: 10px auto 10px auto;
+	background-color: #FFFFFF;
+}
+
+.content {
+	background-color: #9B9B9B;
+	display: inline-block;
+}
+
+.pricing_table {
+	border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+
+.footer {
+	background-color: #555555;
+}
+
+.footer ul {
+}
+
+.footer ul li {
+	display: inline-block;
+
+}
+
+.footer ul li a {
+	padding: 10px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 100%;
+}
